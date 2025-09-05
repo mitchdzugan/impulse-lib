@@ -508,7 +508,7 @@ export function s_bind<a, b>(
         }
     }
 }
-
+/*
 type Eobj = { e?: Event<number>, i: number }
 
 const a: Eobj = { i: 1000 }
@@ -547,3 +547,4 @@ const e2 = bind(e1, (eobj) => {
 })
 
 consume(e2, (val) => console.log(`NEW E2 EMISSION :: <% ${val} %>`))
+*/
